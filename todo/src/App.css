@@ -1,0 +1,66 @@
+body{
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  display: flex;
+  height: 100vh;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  /* border: 2px solid black; */
+  width: 500px;
+  background-color: rgb(196, 196, 255);
+  padding: 2rem;
+  border-radius: 20px;
+  height: 400px;
+  overflow-y: auto;
+
+
+}
+.addtodo{
+  /* border: 2px solid red; */
+  margin: auto;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.addtodo input{
+  padding: .7rem;
+  width: 300px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  color: black;
+}
+.addtodo button{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.addtodo button:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
+p{
+  background-color: rgba(240, 248, 255, 0.4);
+  width: 300px;
+  color: black;
+  /* border: 2px solid black; */
+  padding: .7rem;
+  text-transform: capitalize;
+  border-radius:10px ;
+}
+.item{
+  margin: auto;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
